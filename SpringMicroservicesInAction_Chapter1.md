@@ -1,4 +1,7 @@
 ## Spring微服务实战学习笔记 - 第一章 欢迎迈入云世界，Spring
+### Spring Cloud Config - 管理应用程序的配置数据
+1、Spring Cloud Config 通过集中式服务来处理应用程序配置数据的管理，因此应用程序配置数据（特别是环境特定的配置数据）与部署的微服务完全分离。这确保了无论启动多少个微服务实例，这些微服务实例始终具有相同的配置。
+
 ### Netflix Hystrix - 服务器的弹性容错
 1、Spring Cloud 与 Netflix 的开源项目进行了大量的整合。
 
