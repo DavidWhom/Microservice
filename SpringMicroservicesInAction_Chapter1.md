@@ -1,4 +1,4 @@
-## Spring微服务实战学习笔记 - 第一章
+## Spring微服务实战学习笔记 - 第一章 欢迎迈入云世界，Spring
 ### Netflix Hystrix - 服务器的弹性容错
 1、Spring Cloud 与 Netflix 的开源项目进行了大量的整合。
 
@@ -31,6 +31,7 @@
 1、应用程序通过 inputs 或者 outputs 来与 Spring Cloud Stream 中binder 交互，通过我们配置来 binding ，而 Spring Cloud Stream 的 binder 负责与消息中间件交互。所以，我们只需要搞清楚如何与 Spring Cloud Stream 交互就可以方便使用消息驱动的方式。（[Stream消息驱动](https://www.cnblogs.com/huangjuncong/p/9102843.html)）
 
 2、 为什么需要SpringCloud Stream消息驱动呢？
+
 比方说我们用到了RabbitMQ和Kafka，由于这两个消息中间件的架构上的不同，像RabbitMQ有exchange，kafka有Topic，partitions分区，这些中间件的差异性导致我们实际项目开发给我们造成了一定的困扰，我们如果用了两个消息队列的其中一种。后面的业务需求，我想往另外一种消息队列进行迁移，这时候无疑就是一个灾难性的，一大堆东西都要重新推倒重新做，因为它跟我们的系统耦合了，这时候Spring Cloud Stream给我们提供了一种解耦合的方式。
 
 ### Spring Cloud Sleuth - 分布式链路跟踪
